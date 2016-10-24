@@ -1,0 +1,24 @@
+{
+  "name": "fpp-prototype",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alex Kovalenko <olkov@qapint.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kovalenko0/FPP",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.0-typescript",
+    "imd": "PolymerLabs/IMD#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "2.0-typescript"
+  }
+}

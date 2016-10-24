@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": ["es2017", "dom"],
+    "declaration": true,
+    "sourceMap": false
+  },
+  "include": [
+    "/node_modules/@polymer/polymer/custom_typings/dom.d.ts",
+    "/node_modules/@polymer/polymer/src/typescript/polymer.d.ts",
+    "/node_modules/@polymer/polymer/src/typescript/decorators.ts",
+    "/node_modules/@polymer/polymer/test/unit/typescript/*.ts",
+    "/src/**/*"
+  ]
+}

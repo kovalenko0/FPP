@@ -1,0 +1,23 @@
+{
+  "name": "fpp-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovalenko0/FPP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kovalenko0/FPP/issues"
+  },
+  "homepage": "https://github.com/kovalenko0/FPP#readme",
+  "dependencies": {
+    "@polymer/polymer": "git+https://git@github.com/Polymer/polymer.git#2.0-typescript",
+    "reflect-metadata": "^0.1.8"
+  }
+}

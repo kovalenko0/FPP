@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Fucking Power Point prototype</title>
+	<link rel="import" href="../bower_components/imd/imd.html">
+	<script src="../node_modules/reflect-metadata/Reflect.js"></script>
+	<script>
+      define('reflect-metadata', () => {
+        // TODO(justinfagnani): figure out how to keep decorators.ts from
+        // generating an import for 'reflect-metadata' so this hack isn't
+        // necessary
+      });
+    </script>
+    <script src="../node_modules/@polymer/polymer/src/typescript/decorators.js"></script>
+	<link rel="import" href="elements/app-element/app-element.html">
+</head>
+
+<body>
+	<app-element></app-element>
+</body>
+
+</html>
